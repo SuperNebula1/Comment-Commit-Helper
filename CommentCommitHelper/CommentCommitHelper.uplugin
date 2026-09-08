@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"Version": 9,
+	"VersionName": "1.3.4",
+	"FriendlyName": "Comment Commit Helper",
+	"Description": "Generates source-control commit summaries from new/changed Blueprint comments, with editor-configurable filters, @tag stripping, and one-click cleanup of temporary commit comments.",
+	"Category": "Source Control",
+	"CreatedBy": "Tanner",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Modules": [
+		{
+			"Name": "CommentCommitHelper",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"EngineVersion": "5.8.0"
+}
